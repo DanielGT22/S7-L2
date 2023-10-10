@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="text-center m-3 fs-2">
+        <div id="timer">0 seconds</div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-12 col-md-8">
+            <h1 class="text-center my-4">Registrati</h1>
+            <form>
+              <div class="row g-3">
+                <div class="col col-12 col-md-6 col-lg-12 mb-3">
+                  <div class="col">
+                    <label for="name" class="form-label">Nome</label>
+                    <input
+                      class="form-control"
+                      id="name"
+                      placeholder="Inserisci il tuo nome"
+                    />
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-12 mb-3">
+                  <div class="col">
+                    <label for="cognome" class="form-label">Cognome</label>
+                    <input
+                      class="form-control"
+                      id="cognome"
+                      placeholder="Inserisci il tuo cognome"
+                    />
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-12 mb-3">
+                  <div class="col">
+                    <label for="email" class="form-label">email</label>
+                    <input
+                      class="form-control"
+                      id="email"
+                      placeholder="Inserisci la tua email"
+                    />
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-12 mb-3">
+                  <div class="col">
+                    <label for="address" class="form-label">address</label>
+                    <input
+                      class="form-control"
+                      id="address"
+                      placeholder="Inserisci il tuo indirizo"
+                    />
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <button
+                    type="button"
+                    class="btn btn-primary me-2"
+                    id="save-button"
+                  >
+                    SALVA
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-danger me-2"
+                    id="reset-button"
+                  >
+                    RESETTA
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <ul id="events-list" class="list-group"></ul>
+    </main>
+  </body>
+  <script src="index.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>
