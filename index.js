@@ -63,9 +63,10 @@ const generateList = () => {
   }
 };
 const reset = (localStorageKey) => {
-  localStorage.removeItem(localStorageKey);
+  localStorage.clear();
+  secondi = 0;
 };
-// bhu
+
 eventSave.addEventListener("click", save);
 eventReset.addEventListener("click", reset);
 generateList();
