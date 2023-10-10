@@ -62,9 +62,12 @@ const generateList = () => {
     });
   }
 };
-
+const reset = (localStorageKey) => {
+  localStorage.removeItem(localStorageKey);
+};
+// bhu
 eventSave.addEventListener("click", save);
-
+eventReset.addEventListener("click", reset);
 generateList();
 
 let secondi = 0;
